@@ -8,7 +8,6 @@ import Testimonios from "./assets/components/Testimonios/Testimonios";
 function App() {
   return (
     <>
-      <h1>Algoritmos & Estructura de datos 3</h1>
       <Portada></Portada>
       <Objetivo></Objetivo>
       <RecursosyMateriales></RecursosyMateriales>
