@@ -1,1 +1,12 @@
-/* Escriban su contenido de estilos acá */
+.objetivo-container{
+    text-align: center;
+}
+
+.objetivo-paragraph{
+    padding: 10px;
+    text-align: left;
+}
+
+.objetivo-list-item{
+    text-align: left;
+}
