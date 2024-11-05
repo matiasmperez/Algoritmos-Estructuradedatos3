@@ -1,1 +1,51 @@
 /* Escriban su contenido de estilos acá */
+ /* Estilos del body */
+ body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('imagen-de-fondo.jpg'); /* Imagen local */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Estilos del contenedor principal */
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco translúcido */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+/* Estilos del botón */
+.button {
+    display: inline-block;
+    margin-top: 50px;
+    padding: 15px 30px; /* Aumenta el tamaño */
+    font-size: 1.2em; /* Fuente más grande */
+    background-color: rgb(79, 159, 245);
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 20px; /* Bordes más redondeados */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transición suave */
+}
+
+.button:hover {
+    background-color: rgb(63, 129, 215); /* Cambio de color */
+    transform: scale(1.1); /* Efecto de agrandar cuando se pasa el mouse */
+}
