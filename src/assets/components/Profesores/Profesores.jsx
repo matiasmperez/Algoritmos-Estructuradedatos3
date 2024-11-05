@@ -8,10 +8,10 @@ function Profesores() {
 
   return (
     <div className="profesores-container">
-      <h1>Profesores</h1>
-      <ul>
+      <h1 classname="Titulo">Profesores</h1>
+      <ul classname="Sub-titulo">
         {teachers.map((teacher, index) => (
-          <li key={index}>
+          <li classname="Lista" key={index}>
             {teacher.name} - {teacher.subject}
           </li>
         ))}
