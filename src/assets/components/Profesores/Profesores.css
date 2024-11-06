@@ -3,12 +3,24 @@
   display: flex;
   flex-direction: column;
   align-items: center; /* Centra horizontalmente */
-  justify-content: center; /* Centra verticalmente (si hay suficiente altura) */
+  justify-content: center; /* Centra verticalmente */
+  width: 500px; /* Ancho del cuadrado */
+  height: 500px; /* Alto del cuadrado */
+  border: 2px solid rgb(0, 0, 0); /* Agrega un borde para visualizar el cuadrado */
+  box-sizing: border-box; /* Asegura que el borde esté incluido en el tamaño total */
+  padding: 20px; /* Espacio interno */
+  background-size: cover;        /* Hace que la imagen cubra todo el contenedor */
+  background-position: center;   /* Centra la imagen */
+  background-repeat: no-repeat;  /* Evita que la imagen se repita */
+  width: 110%;
+  height: 68vh;                /* Toma toda la altura de la ventana */
+  padding: 20px;
+  background-color: rgb(2, 98, 241);
 }
 
 .Titulo {
   font-size: 5rem; /* Ajusta el tamaño de letra del título */
-  margin-bottom: 20px; /* Espacio entre el título y la lista */
+  margin-bottom: 20px; /* Espacio entre el título y la lista */;
 }
 
 .Sub-titulo {
@@ -20,3 +32,5 @@
   font-size: 2.5rem; /* Ajusta el tamaño de letra de los elementos de la lista */
   margin: 10px 0; /* Espacio entre los elementos de la lista */
 }
+
+
