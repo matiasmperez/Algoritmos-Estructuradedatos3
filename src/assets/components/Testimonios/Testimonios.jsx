@@ -4,10 +4,46 @@ function Testimonios() {
   return (
     <>
       <div className="profesores-container">
-        <h1 classname="Titulo">Testimonios</h1>
+        <h1 className="Titulo">Testimonios</h1>
       </div>
 
       <div className="testimonios-container">
+        <div className="testimonio">
+          <div className="cuadro-gris">
+            <div className="texto-testimonio">
+              <div className="nombre">Ana González</div>
+              <div className="cargo">Docente Analista de sistemas 2022</div>
+              <p>
+                "Buen ambiente y atencion de los alumnos, en esta materia se da
+                mucho aprendizaje."
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="testimonio">
+          <div className="cuadro-gris">
+            <div className="texto-testimonio">
+              <div className="nombre">Ana González</div>
+              <div className="cargo">Docente Analista de sistemas 2022</div>
+              <p>
+                "Buen ambiente y atencion de los alumnos, en esta materia se da
+                mucho aprendizaje."
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="testimonio">
+          <div className="cuadro-gris">
+            <div className="texto-testimonio">
+              <div className="nombre">Ana González</div>
+              <div className="cargo">Docente Analista de sistemas 2022</div>
+              <p>
+                "Buen ambiente y atencion de los alumnos, en esta materia se da
+                mucho aprendizaje."
+              </p>
+            </div>
+          </div>
+        </div>
         <div className="testimonio">
           <div className="cuadro-gris">
             <div className="texto-testimonio">
